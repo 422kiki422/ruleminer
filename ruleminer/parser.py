@@ -16,7 +16,7 @@ NOT = one_of(["NOT", "~"])
 SEP = Literal(",")
 
 QUOTE = Literal("'") | Literal('"')
-ARITH_OP = one_of("+ - * /")
+ARITH_OP = one_of("+ - * / **")
 LOGIC_OP = one_of("& |")
 COMPA_OP = one_of(">= > <= < != == .isin")
 PREFIX_OP = one_of("min max abs quantile MIN MAX ABS QUANTILE")
